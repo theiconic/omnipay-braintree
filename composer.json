@@ -1,41 +1,34 @@
 {
-    "name": "omnipay/braintree",
+    "name": "theiconic/omnipay-braintree",
     "type": "library",
     "description": "Braintree gateway for Omnipay payment processing library",
-    "keywords": [
-        "gateway",
-        "merchant",
-        "omnipay",
-        "pay",
-        "payment",
-        "braintree",
-        "purchase"
-    ],
-    "homepage": "https://github.com/thephpleague/omnipay-braintree",
+    "homepage": "https://github.com/theiconic/omnipay-braintree",
     "license": "MIT",
     "authors": [
         {
-            "name": "Kayla Daniels",
-            "email": "kayladnls@gmail.com"
+            "name": "THE ICONIC ENG",
+            "email": "engineering@theiconic.com.au"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/theiconic/omnipay-common/"
         },
         {
-            "name": "Barry vd. Heuvel",
-            "email": "barryvdh@gmail.com"
-        },
-        {
-            "name": "Omnipay Contributors",
-            "homepage": "https://github.com/thephpleague/omnipay-braintree/contributors"
+            "type": "vcs",
+            "url": "https://github.com/theiconic/omnipay-tests/"
         }
     ],
     "autoload": {
         "psr-4": { "Omnipay\\Braintree\\" : "src/" }
     },
     "require": {
-        "omnipay/common": "^3",
+        "theiconic/omnipay-common": "^4.1",
         "braintree/braintree_php": "^3.0"
     },
     "require-dev": {
-        "omnipay/tests": "^3"
+        "theiconic/omnipay-tests": "^4.1"
     },
     "extra": {
         "branch-alias": {
